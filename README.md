@@ -21,4 +21,4 @@ This project builds a command-line tool that generates an HTML portfolio page fr
   ## Usage
 
   * Run the application: node index.js
-  * you should see [name].html file with the information provided to the application.
+  * you should see index.html file with the information provided to the application.

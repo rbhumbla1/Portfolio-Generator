@@ -73,7 +73,7 @@ inquirer
         },
     ])
     .then((data) => {
-        const filename = `${data.name.toLowerCase().split(' ').join('')}.html`;
+        const filename = `index.html`;
 
         fs.writeFile(filename, "<!--This file is generator by Node.js-->\n", (err) =>
             err ? console.log(err) : console.log('Success!')
