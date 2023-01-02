@@ -64,7 +64,7 @@ inquirer
         {
             type: 'input',
             name: 'linkedinurl',
-            message: 'Please provideyorlinkedIn URL:',
+            message: 'Please provide your linkedIn URL:',
         },
         {
             type: 'input',
@@ -75,7 +75,7 @@ inquirer
     .then((data) => {
         const filename = `index.html`;
 
-        fs.writeFile(filename, "<!--This file is generator by Node.js-->\n", (err) =>
+        fs.writeFileSync(filename, "<!--This file is generator by Node.js-->\n", (err) =>
             err ? console.log(err) : console.log('Success!')
         );
 

@@ -18,6 +18,10 @@ This project builds a command-line tool that generates an HTML portfolio page fr
 
   * String template literals for generating a string version of the HTML document before it is written to the file system
 
+  ## Mock Up
+
+ ![Screenshot](./assets/images/Screenshot.JPG)
+
   ## Usage
 
   * Run the application: node index.js
